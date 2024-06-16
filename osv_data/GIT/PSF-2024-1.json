@@ -5,8 +5,8 @@
     "BIT-python-2023-6597",
     "CVE-2023-6597"
   ],
-  "modified": "2024-04-03T22:11:41.482426Z",
-  "published": "2024-03-19T15:44:28Z",
+  "modified": "2024-06-14T20:12:09.822219Z",
+  "published": "2024-03-19T15:44:28.989Z",
   "database_specific": {
     "cwe_ids": []
   },
@@ -46,6 +46,18 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/03/20/5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T3IGRX54M7RNCQOXVQO5KQKTGWCOABIM/"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5VHWS52HGD743C47UMCSAK2A773M2YE/"
     }
   ],
   "affected": [

@@ -5,8 +5,8 @@
     "BIT-python-2024-0450",
     "CVE-2024-0450"
   ],
-  "modified": "2024-04-03T22:11:43.120887Z",
-  "published": "2024-03-19T15:12:07Z",
+  "modified": "2024-06-13T21:27:26.977313Z",
+  "published": "2024-03-19T15:12:07.789Z",
   "database_specific": {
     "cwe_ids": []
   },
@@ -54,6 +54,22 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/03/20/5"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/70497218351ba44bffc8b571201ecb5652d84675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T3IGRX54M7RNCQOXVQO5KQKTGWCOABIM/"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5VHWS52HGD743C47UMCSAK2A773M2YE/"
     }
   ],
   "affected": [
@@ -83,6 +99,9 @@
             },
             {
               "fixed": "d05bac0b74153beb541b88b4fca33bf053990183"
+            },
+            {
+              "fixed": "70497218351ba44bffc8b571201ecb5652d84675"
             }
           ]
         }
