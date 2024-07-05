@@ -3,9 +3,11 @@
   "summary": "Zlib 1.2.11",
   "details": "The crc32_big function in crc32.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact via vectors involving big-endian CRC calculation.",
   "aliases": [
-    "CVE-2016-9843"
+    "CGA-gmp9-xrph-w4g6",
+    "CVE-2016-9843",
+    "GHSA-q27x-567x-5347"
   ],
-  "modified": "2023-11-08T03:58:38.845666Z",
+  "modified": "2024-07-04T22:14:35.670733Z",
   "published": "2017-05-23T03:56:00Z",
   "database_specific": {
     "cwe_ids": []

@@ -3,9 +3,11 @@
   "summary": "Zlib 1.2.11",
   "details": "inftrees.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic.",
   "aliases": [
-    "CVE-2016-9840"
+    "CGA-qp96-8wwr-c2fc",
+    "CVE-2016-9840",
+    "GHSA-wrj6-35fr-8xw5"
   ],
-  "modified": "2023-11-08T03:58:38.662883Z",
+  "modified": "2024-07-04T22:14:29.138731Z",
   "published": "2017-05-23T03:56:00Z",
   "database_specific": {
     "cwe_ids": []

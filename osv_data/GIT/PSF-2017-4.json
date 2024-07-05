@@ -3,9 +3,11 @@
   "summary": "Zlib 1.2.11",
   "details": "The inflateMark function in inflate.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact via vectors involving left shifts of negative integers.",
   "aliases": [
-    "CVE-2016-9842"
+    "CGA-p5c8-j59x-6x2p",
+    "CVE-2016-9842",
+    "GHSA-3686-jjcf-4w27"
   ],
-  "modified": "2023-11-08T03:58:38.784399Z",
+  "modified": "2024-07-04T22:14:35.901101Z",
   "published": "2017-05-23T03:56:00Z",
   "database_specific": {
     "cwe_ids": []
