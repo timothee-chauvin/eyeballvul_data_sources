@@ -5,7 +5,7 @@
     "BIT-python-2024-4030",
     "CVE-2024-4030"
   ],
-  "modified": "2024-06-14T20:15:58.748283Z",
+  "modified": "2024-07-06T02:46:40.279525Z",
   "published": "2024-05-07T21:02:55.284Z",
   "database_specific": {
     "cwe_ids": []
@@ -66,6 +66,10 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/eb29e2f5905da93333d1ce78bc98b151e763ff46"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240705-0005/"
     }
   ],
   "affected": [
