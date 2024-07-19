@@ -3,11 +3,9 @@
   "summary": "Zlib 1.2.11",
   "details": "inffast.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic.",
   "aliases": [
-    "CGA-h83h-jc9x-489q",
-    "CVE-2016-9841",
-    "GHSA-5f8r-846v-423w"
+    "CVE-2016-9841"
   ],
-  "modified": "2024-07-04T22:14:40.573819Z",
+  "modified": "2024-07-15T22:12:25.646048Z",
   "published": "2017-05-23T03:56:00Z",
   "database_specific": {
     "cwe_ids": []
