@@ -1,0 +1,46 @@
+{
+  "id": "PSF-2024-8",
+  "details": "There is a MEDIUM severity vulnerability affecting CPython.\n\nThe \nemail module didn\u2019t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized.",
+  "aliases": [
+    "CVE-2024-6923"
+  ],
+  "modified": "2024-08-01T19:11:55.250315Z",
+  "published": "2024-08-01T13:40:11Z",
+  "database_specific": {
+    "cwe_ids": []
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/pull/122233"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/python/cpython/issues/121650"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/"
+    }
+  ],
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "GIT",
+          "repo": "https://github.com/python/cpython",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2024-8.json"
+      },
+      "versions": []
+    }
+  ],
+  "schema_version": "1.6.0"
+}

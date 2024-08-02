@@ -5,7 +5,7 @@
     "BIT-python-2024-5642",
     "CVE-2024-5642"
   ],
-  "modified": "2024-07-02T00:26:47.769425Z",
+  "modified": "2024-07-29T02:37:39.384261Z",
   "published": "2024-06-27T21:05:31.281Z",
   "database_specific": {
     "cwe_ids": []
@@ -34,6 +34,10 @@
     {
       "type": "REPORT",
       "url": "https://github.com/python/cpython/issues/121227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240726-0005/"
     }
   ],
   "affected": [

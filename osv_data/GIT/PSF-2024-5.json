@@ -5,7 +5,7 @@
     "BIT-python-2024-4032",
     "CVE-2024-4032"
   ],
-  "modified": "2024-06-20T11:57:21.586725Z",
+  "modified": "2024-07-29T02:37:28.472862Z",
   "published": "2024-06-17T15:05:58.827Z",
   "database_specific": {
     "cwe_ids": []
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2024/06/17/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240726-0004/"
     }
   ],
   "affected": [
