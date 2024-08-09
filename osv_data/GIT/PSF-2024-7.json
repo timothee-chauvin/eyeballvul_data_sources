@@ -4,7 +4,7 @@
   "aliases": [
     "CVE-2024-3219"
   ],
-  "modified": "2024-08-01T19:00:45.888134Z",
+  "modified": "2024-08-06T00:58:32.813552Z",
   "published": "2024-07-29T21:54:05.830Z",
   "database_specific": {
     "cwe_ids": []
@@ -61,6 +61,22 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/f071f01b7b7e19d7d6b3a4b0ec62f820ecb14660"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/31302f5fc24eecd693f0c8aaba7c2840b09b594d"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/3f5d9d12c74787fbf3f5891835c85cc15526c86d"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/c5655aa6ad120d2ed7f255bebd6e8b71a9c07dde"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/e319f774f9e766a2b92949444a2d46081df3363a"
     }
   ],
   "affected": [
@@ -99,6 +115,18 @@
             },
             {
               "fixed": "f071f01b7b7e19d7d6b3a4b0ec62f820ecb14660"
+            },
+            {
+              "fixed": "31302f5fc24eecd693f0c8aaba7c2840b09b594d"
+            },
+            {
+              "fixed": "3f5d9d12c74787fbf3f5891835c85cc15526c86d"
+            },
+            {
+              "fixed": "c5655aa6ad120d2ed7f255bebd6e8b71a9c07dde"
+            },
+            {
+              "fixed": "e319f774f9e766a2b92949444a2d46081df3363a"
             }
           ]
         }
