@@ -1,0 +1,47 @@
+{
+  "id": "PSF-2024-9",
+  "details": "There is a LOW severity vulnerability affecting CPython, specifically the\n'http.cookies' standard library module.\n\n\nWhen parsing cookies that contained backslashes for quoted characters in\nthe cookie value, the parser would use an algorithm with quadratic\ncomplexity, resulting in excess CPU resources being used while parsing the\nvalue.",
+  "aliases": [
+    "BIT-python-2024-7592",
+    "CVE-2024-7592"
+  ],
+  "modified": "2024-08-23T07:13:14.446036Z",
+  "published": "2024-08-19T19:06:45Z",
+  "database_specific": {
+    "cwe_ids": []
+  },
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/pull/123075"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/python/cpython/issues/123067"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/"
+    }
+  ],
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "GIT",
+          "repo": "https://github.com/python/cpython",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2024-9.json"
+      },
+      "versions": []
+    }
+  ],
+  "schema_version": "1.6.0"
+}

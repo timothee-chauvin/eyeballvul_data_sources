@@ -2,9 +2,10 @@
   "id": "PSF-2024-8",
   "details": "There is a MEDIUM severity vulnerability affecting CPython.\n\nThe \nemail module didn\u2019t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized.",
   "aliases": [
+    "BIT-python-2024-6923",
     "CVE-2024-6923"
   ],
-  "modified": "2024-08-08T00:56:32.637210Z",
+  "modified": "2024-08-19T10:12:03.318217Z",
   "published": "2024-08-01T13:40:11.069Z",
   "database_specific": {
     "cwe_ids": []
