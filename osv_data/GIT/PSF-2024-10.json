@@ -5,7 +5,7 @@
     "BIT-python-2024-8088",
     "CVE-2024-8088"
   ],
-  "modified": "2024-08-29T01:52:44.792822Z",
+  "modified": "2024-09-05T00:58:26.126618Z",
   "published": "2024-08-22T18:45:31.807Z",
   "database_specific": {
     "cwe_ids": []
@@ -42,6 +42,34 @@
     {
       "type": "REPORT",
       "url": "https://github.com/python/cpython/issues/123270"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1"
     }
   ],
   "affected": [
@@ -65,6 +93,27 @@
             },
             {
               "fixed": "e0264a61119d551658d9445af38323ba94fc16db"
+            },
+            {
+              "fixed": "2231286d78d328c2f575e0b05b16fe447d1656d6"
+            },
+            {
+              "fixed": "7e8883a3f04d308302361aeffc73e0e9837f19d4"
+            },
+            {
+              "fixed": "95b073bddefa6243effa08e131e297c0383e7f6a"
+            },
+            {
+              "fixed": "7bc367e464ce50b956dd232c1dfa1cad4e7fb814"
+            },
+            {
+              "fixed": "962055268ed4f2ca1d717bfc8b6385de50a23ab7"
+            },
+            {
+              "fixed": "fc0b8259e693caa8400fa8b6ac1e494e47ea7798"
+            },
+            {
+              "fixed": "0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1"
             }
           ]
         }
@@ -406,17 +455,78 @@
         "v3.7.0a2",
         "v3.7.0a3",
         "v3.7.0a4",
+        "v3.8.0",
         "v3.8.0a1",
         "v3.8.0a2",
         "v3.8.0a3",
         "v3.8.0a4",
         "v3.8.0b1",
+        "v3.8.0b2",
+        "v3.8.0b3",
+        "v3.8.0b4",
+        "v3.8.0rc1",
+        "v3.8.1",
+        "v3.8.10",
+        "v3.8.11",
+        "v3.8.12",
+        "v3.8.13",
+        "v3.8.14",
+        "v3.8.15",
+        "v3.8.16",
+        "v3.8.17",
+        "v3.8.18",
+        "v3.8.19",
+        "v3.8.1rc1",
+        "v3.8.2",
+        "v3.8.2rc1",
+        "v3.8.2rc2",
+        "v3.8.3",
+        "v3.8.3rc1",
+        "v3.8.4",
+        "v3.8.4rc1",
+        "v3.8.5",
+        "v3.8.6",
+        "v3.8.6rc1",
+        "v3.8.7",
+        "v3.8.7rc1",
+        "v3.8.8",
+        "v3.8.8rc1",
+        "v3.8.9",
+        "v3.9.0",
         "v3.9.0a1",
         "v3.9.0a2",
         "v3.9.0a3",
         "v3.9.0a4",
         "v3.9.0a5",
-        "v3.9.0a6"
+        "v3.9.0a6",
+        "v3.9.0b1",
+        "v3.9.0b2",
+        "v3.9.0b3",
+        "v3.9.0b4",
+        "v3.9.0b5",
+        "v3.9.0rc1",
+        "v3.9.0rc2",
+        "v3.9.1",
+        "v3.9.10",
+        "v3.9.11",
+        "v3.9.12",
+        "v3.9.13",
+        "v3.9.14",
+        "v3.9.15",
+        "v3.9.16",
+        "v3.9.17",
+        "v3.9.18",
+        "v3.9.19",
+        "v3.9.1rc1",
+        "v3.9.2",
+        "v3.9.2rc1",
+        "v3.9.3",
+        "v3.9.4",
+        "v3.9.5",
+        "v3.9.6",
+        "v3.9.7",
+        "v3.9.8",
+        "v3.9.9"
       ],
       "database_specific": {
         "source": "https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2024-10.json"
