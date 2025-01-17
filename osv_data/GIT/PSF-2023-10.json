@@ -4,10 +4,11 @@
   "details": "read_ints in plistlib.py in Python through 3.9.1 is vulnerable to a potential DoS attack via CPU and RAM exhaustion when processing malformed Apple Property List files in binary format.",
   "aliases": [
     "BIT-python-2022-48564",
+    "BIT-python-min-2022-48564",
     "CVE-2022-48564",
     "GHSA-p8vw-m6qq-w42v"
   ],
-  "modified": "2023-12-06T01:02:44.273973Z",
+  "modified": "2025-01-16T09:11:51.257354Z",
   "published": "2023-08-22T00:00:00Z",
   "database_specific": {
     "cwe_ids": []

@@ -4,9 +4,10 @@
   "details": "A flaw was found in python. In algorithms with quadratic time complexity using non-binary bases, when using int(\"text\"), a system could take 50ms to parse an int string with 100,000 digits and 5s for 1,000,000 digits (float, decimal, int.from_bytes(), and int() for binary bases 2, 4, 8, 16, and 32 are not affected). The highest threat from this vulnerability is to system availability.",
   "aliases": [
     "BIT-python-2020-10735",
+    "BIT-python-min-2020-10735",
     "CVE-2020-10735"
   ],
-  "modified": "2023-12-06T00:59:59.017874Z",
+  "modified": "2025-01-16T09:11:52.933749Z",
   "published": "2022-09-09T00:00:00Z",
   "database_specific": {
     "cwe_ids": []

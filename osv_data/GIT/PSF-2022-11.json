@@ -4,11 +4,13 @@
   "details": "The Keccak XKCP SHA-3 reference implementation before fdc6fef has an integer overflow and resultant buffer overflow that allows attackers to execute arbitrary code or eliminate expected cryptographic properties. This occurs in the sponge function interface.",
   "aliases": [
     "BIT-php-2022-37454",
+    "BIT-php-min-2022-37454",
     "BIT-python-2022-37454",
+    "BIT-python-min-2022-37454",
     "CVE-2022-37454",
     "GHSA-6w4m-2xhg-2658"
   ],
-  "modified": "2023-12-06T01:02:30.927925Z",
+  "modified": "2025-01-16T09:11:55.076480Z",
   "published": "2022-10-21T00:00:00Z",
   "database_specific": {
     "cwe_ids": []

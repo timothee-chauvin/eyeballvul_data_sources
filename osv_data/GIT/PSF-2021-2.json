@@ -4,9 +4,10 @@
   "details": "In Python before 3,9,5, the ipaddress library mishandles leading zero characters in the octets of an IP address string. This (in some situations) allows attackers to bypass access control that is based on IP addresses.",
   "aliases": [
     "BIT-python-2021-29921",
+    "BIT-python-min-2021-29921",
     "CVE-2021-29921"
   ],
-  "modified": "2023-12-06T01:01:10.043823Z",
+  "modified": "2025-01-16T09:11:59.684304Z",
   "published": "2021-05-06T00:00:00Z",
   "database_specific": {
     "cwe_ids": []

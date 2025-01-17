@@ -4,9 +4,10 @@
   "details": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
   "aliases": [
     "BIT-python-2023-24329",
+    "BIT-python-min-2023-24329",
     "CVE-2023-24329"
   ],
-  "modified": "2023-12-06T01:02:51.879638Z",
+  "modified": "2025-01-16T09:12:16.123048Z",
   "published": "2023-02-17T00:00:00Z",
   "database_specific": {
     "cwe_ids": []

@@ -4,9 +4,10 @@
   "details": "In Python 3 through 3.9.0, the Lib/test/multibytecodec_support.py CJK codec tests call eval() on content retrieved via HTTP.",
   "aliases": [
     "BIT-python-2020-27619",
+    "BIT-python-min-2020-27619",
     "CVE-2020-27619"
   ],
-  "modified": "2023-12-06T01:00:29.252193Z",
+  "modified": "2025-01-16T09:11:56.376268Z",
   "published": "2020-10-22T02:47:40Z",
   "database_specific": {
     "cwe_ids": []

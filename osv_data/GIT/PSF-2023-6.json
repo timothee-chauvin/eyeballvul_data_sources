@@ -5,6 +5,7 @@
   "aliases": [
     "BIT-python-2022-48566",
     "BIT-python-2023-38898",
+    "BIT-python-min-2022-48566",
     "CVE-2022-48566",
     "CVE-2023-38898",
     "GHSA-cgfh-jp5w-8cmx",
@@ -12,7 +13,7 @@
     "PSF-2023-5",
     "PSF-2023-7"
   ],
-  "modified": "2023-12-06T01:02:44.393257Z",
+  "modified": "2025-01-16T09:12:12.179905Z",
   "published": "2023-08-24T00:00:00Z",
   "references": [
     {
