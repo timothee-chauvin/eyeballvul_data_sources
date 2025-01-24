@@ -3,9 +3,10 @@
   "details": "The urllib.parse.urlsplit() and urlparse() functions improperly validated bracketed hosts (`[]`), allowing hosts that weren't IPv6 or IPvFuture. This behavior was not conformant to RFC 3986 and potentially enabled SSRF if a URL is processed by more than one URL parser.",
   "aliases": [
     "BIT-python-2024-11168",
+    "BIT-python-min-2024-11168",
     "CVE-2024-11168"
   ],
-  "modified": "2024-12-10T11:57:01.395059Z",
+  "modified": "2025-01-17T17:44:23.753233Z",
   "published": "2024-11-12T21:22:23.438Z",
   "database_specific": {
     "cwe_ids": []
