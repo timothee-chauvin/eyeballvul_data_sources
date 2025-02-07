@@ -4,7 +4,7 @@
   "aliases": [
     "CVE-2024-3219"
   ],
-  "modified": "2024-10-18T03:15:25.263329Z",
+  "modified": "2025-02-01T05:46:39.468110Z",
   "published": "2024-07-29T21:54:05.830Z",
   "database_specific": {
     "cwe_ids": []
@@ -77,6 +77,10 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/e319f774f9e766a2b92949444a2d46081df3363a"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/78df1043dbdce5c989600616f9f87b4ee72944e5"
     }
   ],
   "affected": [
@@ -127,6 +131,9 @@
             },
             {
               "fixed": "e319f774f9e766a2b92949444a2d46081df3363a"
+            },
+            {
+              "fixed": "78df1043dbdce5c989600616f9f87b4ee72944e5"
             }
           ]
         }

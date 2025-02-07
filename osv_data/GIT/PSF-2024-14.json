@@ -6,7 +6,7 @@
     "BIT-python-min-2024-12254",
     "CVE-2024-12254"
   ],
-  "modified": "2025-01-17T17:44:21.078238Z",
+  "modified": "2025-02-01T05:44:57.330990Z",
   "published": "2024-12-06T15:19:41.576Z",
   "database_specific": {
     "cwe_ids": []
@@ -31,6 +31,10 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/e991ac8f2037d78140e417cc9a9486223eb3e786"
     }
   ],
   "affected": [
@@ -48,6 +52,9 @@
             },
             {
               "fixed": "9aa0deb2eef2655a1029ba228527b152353135b5"
+            },
+            {
+              "fixed": "e991ac8f2037d78140e417cc9a9486223eb3e786"
             }
           ]
         }
@@ -250,6 +257,8 @@
         "v3.13.0rc2",
         "v3.13.0rc3",
         "v3.13.1",
+        "v3.14.0a1",
+        "v3.14.0a2",
         "v3.1a1",
         "v3.1a2",
         "v3.1b1",
