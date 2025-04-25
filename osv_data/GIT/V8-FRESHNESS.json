@@ -2,7 +2,7 @@
   "id": "V8-FRESHNESS",
   "summary": "Outdated dependency on V8 found (see details)",
   "details": "Outdated dependency on V8 found (see [policy](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/security/updates.md)).\n\nPlease update to the latest [beta](https://chromium.googlesource.com/v8/v8.git/+/refs/heads/beta), [stable](https://chromium.googlesource.com/v8/v8.git/+/refs/heads/stable), or [extended stable](https://chromium.googlesource.com/v8/v8.git/+/refs/heads/extended) versions.",
-  "modified": "2025-04-18T06:28:16.858944Z",
+  "modified": "2025-04-24T01:19:28.426122Z",
   "published": "2024-11-22T15:36:05Z",
   "affected": [
     {
@@ -15,16 +15,16 @@
               "introduced": "0"
             },
             {
-              "fixed": "1dbf680799488c0699f6e3c5bdfa3a35e7f28a2d"
+              "fixed": "e2591684c45463aa1e46ebefc3fd35deee63f37c"
             },
             {
-              "fixed": "3d750c2aa9ef3d44660a977baf4839fc1e9df217"
+              "fixed": "2bc178b8a3fca51fcc808abd4bbd985f0313d8bc"
+            },
+            {
+              "fixed": "35fa761645f2b50f8565ae34fb37cf1bd82021ca"
             },
             {
               "fixed": "4f282ae4acae85cdcc8c167cbc296a86d24c1cf6"
-            },
-            {
-              "fixed": "e2591684c45463aa1e46ebefc3fd35deee63f37c"
             }
           ]
         }
@@ -15691,6 +15691,8 @@
         "13.6.233.3-pgo",
         "13.6.233.4",
         "13.6.233.4-pgo",
+        "13.6.233.5",
+        "13.6.233.5-pgo",
         "13.6.234",
         "13.6.234-pgo",
         "13.6.235",
@@ -15879,8 +15881,44 @@
         "13.7.1-pgo",
         "13.7.10",
         "13.7.10-pgo",
+        "13.7.100",
+        "13.7.100-pgo",
+        "13.7.101",
+        "13.7.101-pgo",
+        "13.7.102",
+        "13.7.102-pgo",
+        "13.7.103",
+        "13.7.103-pgo",
+        "13.7.104",
+        "13.7.104-pgo",
+        "13.7.105",
+        "13.7.105-pgo",
+        "13.7.106",
+        "13.7.106-pgo",
+        "13.7.107",
+        "13.7.107-pgo",
+        "13.7.108",
+        "13.7.108-pgo",
+        "13.7.109",
+        "13.7.109-pgo",
         "13.7.11",
         "13.7.11-pgo",
+        "13.7.110",
+        "13.7.110-pgo",
+        "13.7.111",
+        "13.7.111-pgo",
+        "13.7.112",
+        "13.7.112-pgo",
+        "13.7.113",
+        "13.7.113-pgo",
+        "13.7.114",
+        "13.7.114-pgo",
+        "13.7.115",
+        "13.7.115-pgo",
+        "13.7.116",
+        "13.7.116-pgo",
+        "13.7.117",
+        "13.7.117-pgo",
         "13.7.12",
         "13.7.12-pgo",
         "13.7.13",
@@ -16061,6 +16099,22 @@
         "13.7.90-pgo",
         "13.7.91",
         "13.7.91-pgo",
+        "13.7.92",
+        "13.7.92-pgo",
+        "13.7.93",
+        "13.7.93-pgo",
+        "13.7.94",
+        "13.7.94-pgo",
+        "13.7.95",
+        "13.7.95-pgo",
+        "13.7.96",
+        "13.7.96-pgo",
+        "13.7.97",
+        "13.7.97-pgo",
+        "13.7.98",
+        "13.7.98-pgo",
+        "13.7.99",
+        "13.7.99-pgo",
         "2.0.2.1",
         "2.0.2.2",
         "2.0.2.3",
