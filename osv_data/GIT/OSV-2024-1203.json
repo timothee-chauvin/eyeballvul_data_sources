@@ -1,0 +1,44 @@
+{
+  "affected": [
+    {
+      "database_specific": {
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/espeak-ng/OSV-2024-1203.yaml"
+      },
+      "ecosystem_specific": {
+        "severity": null
+      },
+      "package": {
+        "ecosystem": "OSS-Fuzz",
+        "name": "espeak-ng",
+        "purl": "pkg:generic/espeak-ng"
+      },
+      "ranges": [
+        {
+          "events": [
+            {
+              "introduced": "0a713d52bbf3e061823d1a7f35e5303e7320f27a"
+            }
+          ],
+          "repo": "https://github.com/espeak-ng/espeak-ng",
+          "type": "GIT"
+        }
+      ],
+      "versions": [
+        "1.51",
+        "1.52.0"
+      ]
+    }
+  ],
+  "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=372298920\n\n```\nCrash type: Global-buffer-overflow WRITE {*}\nCrash state:\nAnnouncePunctuation\nReadClause\nTranslateClause\n```\n",
+  "id": "OSV-2024-1203",
+  "modified": "2024-10-11T00:02:53.599146Z",
+  "published": "2024-10-11T00:02:53.598773Z",
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=372298920"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "summary": "Global-buffer-overflow in AnnouncePunctuation"
+}

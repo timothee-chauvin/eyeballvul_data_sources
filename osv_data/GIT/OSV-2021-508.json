@@ -1,0 +1,44 @@
+{
+  "affected": [
+    {
+      "database_specific": {
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/https://github.com/sass/libsass.git/OSV-2021-508.yaml"
+      },
+      "package": {
+        "ecosystem": "OSS-Fuzz",
+        "name": "libsass",
+        "purl": "pkg:generic/libsass"
+      },
+      "ranges": [
+        {
+          "events": [
+            {
+              "introduced": "f964dcddd76f4c1f00da06bfd905be790618c33b"
+            }
+          ],
+          "repo": "https://github.com/sass/libsass.git",
+          "type": "GIT"
+        }
+      ],
+      "versions": [
+        "3.6.2",
+        "3.6.3",
+        "3.6.4",
+        "3.6.5",
+        "3.6.6"
+      ]
+    }
+  ],
+  "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=31832\n\n```\nCrash type: Segv on unknown address\nCrash state:\nSass::CompoundSelector::resolve_parent_refs\nSass::ComplexSelector::resolve_parent_refs\nSass::SelectorList::resolve_parent_refs\n```\n",
+  "id": "OSV-2021-508",
+  "modified": "2023-12-22T14:10:14.701082Z",
+  "published": "2021-03-09T00:02:18.581527Z",
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=31832"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "summary": "Segv on unknown address in Sass::CompoundSelector::resolve_parent_refs"
+}

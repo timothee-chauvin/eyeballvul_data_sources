@@ -1,0 +1,45 @@
+{
+  "affected": [
+    {
+      "database_specific": {
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/https://github.com/jqlang/jq/OSV-2024-440.yaml"
+      },
+      "ecosystem_specific": {
+        "severity": "MEDIUM"
+      },
+      "package": {
+        "ecosystem": "OSS-Fuzz",
+        "name": "jq",
+        "purl": "pkg:generic/jq"
+      },
+      "ranges": [
+        {
+          "events": [
+            {
+              "introduced": "5029328d35f3e60037970d27f350a742af41aa02"
+            }
+          ],
+          "repo": "https://github.com/jqlang/jq",
+          "type": "GIT"
+        }
+      ],
+      "versions": [
+        "jq-1.7.1",
+        "jq-1.8.0",
+        "jq-1.8.1"
+      ]
+    }
+  ],
+  "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=66323\n\n```\nCrash type: UNKNOWN READ\nCrash state:\nNULL```\n",
+  "id": "OSV-2024-440",
+  "modified": "2025-07-01T14:30:06.613574Z",
+  "published": "2024-05-07T00:06:11.033336Z",
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=66323"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "summary": "UNKNOWN READ"
+}

@@ -1,0 +1,41 @@
+{
+  "affected": [
+    {
+      "database_specific": {
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/dovecot/OSV-2020-880.yaml"
+      },
+      "ecosystem_specific": {
+        "severity": "MEDIUM"
+      },
+      "package": {
+        "ecosystem": "OSS-Fuzz",
+        "name": "dovecot",
+        "purl": "pkg:generic/dovecot"
+      },
+      "ranges": [
+        {
+          "events": [
+            {
+              "introduced": "f5befde9939b105b490cd475df380c3220275bb6"
+            }
+          ],
+          "repo": "https://github.com/dovecot/core",
+          "type": "GIT"
+        }
+      ],
+      "versions": []
+    }
+  ],
+  "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=23514\n\n```\nCrash type: Heap-buffer-overflow READ 1\nCrash state:\nsmtp_command_parse_line\nsmtp_command_parse\nsmtp_command_parse_next\n```\n",
+  "id": "OSV-2020-880",
+  "modified": "2022-04-13T03:04:33.897659Z",
+  "published": "2020-07-14T22:13:57.514686Z",
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=23514"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "summary": "Heap-buffer-overflow in smtp_command_parse_line"
+}

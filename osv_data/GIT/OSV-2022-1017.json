@@ -1,0 +1,45 @@
+{
+  "affected": [
+    {
+      "database_specific": {
+        "fixed_range": "55cf11fdc2ede6bbd89d387fa8ec9f4524c72e46:1fafb83fed2b03c9f8730f6cd191a6b4299ff489",
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/suricata/OSV-2022-1017.yaml"
+      },
+      "ecosystem_specific": {
+        "severity": null
+      },
+      "package": {
+        "ecosystem": "OSS-Fuzz",
+        "name": "suricata",
+        "purl": "pkg:generic/suricata"
+      },
+      "ranges": [
+        {
+          "events": [
+            {
+              "introduced": "e46a0bd46a590a2cfbd1b9ddad0d152b4274790b"
+            },
+            {
+              "fixed": "1fafb83fed2b03c9f8730f6cd191a6b4299ff489"
+            }
+          ],
+          "repo": "https://github.com/OISF/suricata.git",
+          "type": "GIT"
+        }
+      ],
+      "versions": []
+    }
+  ],
+  "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=52128\n\n```\nCrash type: Null-dereference READ\nCrash state:\nAlertJson\nJsonAlertLogger\nOutputPacketLog\n```\n",
+  "id": "OSV-2022-1017",
+  "modified": "2022-10-06T00:00:53.118993Z",
+  "published": "2022-10-06T00:00:53.118743Z",
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=52128"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "summary": "Null-dereference READ in AlertJson"
+}

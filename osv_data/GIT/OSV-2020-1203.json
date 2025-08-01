@@ -1,0 +1,52 @@
+{
+  "affected": [
+    {
+      "database_specific": {
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/openh264/OSV-2020-1203.yaml"
+      },
+      "ecosystem_specific": {
+        "introduced_range": "unknown:70eeb783515dbfee3e0c781d6667838caba5113b",
+        "severity": "HIGH"
+      },
+      "package": {
+        "ecosystem": "OSS-Fuzz",
+        "name": "openh264",
+        "purl": "pkg:generic/openh264"
+      },
+      "ranges": [
+        {
+          "events": [
+            {
+              "introduced": "70eeb783515dbfee3e0c781d6667838caba5113b"
+            },
+            {
+              "fixed": "68b51e8aed5ea83bcbb9da90af03023ce54a5427"
+            },
+            {
+              "fixed": "989067645537fc54d547126adc5567b5fdc0fae2"
+            }
+          ],
+          "repo": "https://github.com/cisco/openh264.git",
+          "type": "GIT"
+        }
+      ],
+      "versions": [
+        "v2.0.0",
+        "v2.1.0",
+        "v2.1.1"
+      ]
+    }
+  ],
+  "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=20491\n\n```\nCrash type: Heap-use-after-free READ 4\nCrash state:\nWelsDec::WelsReorderRefList\nWelsDec::InitRefPicList\nWelsDec::DecodeCurrentAccessUnit\n```\n",
+  "id": "OSV-2020-1203",
+  "modified": "2022-04-13T03:34:09.198121Z",
+  "published": "2020-07-22T21:49:56.222517Z",
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=20491"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "summary": "Heap-use-after-free in WelsDec::WelsReorderRefList"
+}

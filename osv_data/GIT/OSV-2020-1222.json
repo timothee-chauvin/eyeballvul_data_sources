@@ -1,0 +1,49 @@
+{
+  "affected": [
+    {
+      "database_specific": {
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/htslib/OSV-2020-1222.yaml"
+      },
+      "ecosystem_specific": {
+        "introduced_range": "unknown:dd6f0b72c92591252bb77818663629cc1a129949",
+        "severity": "MEDIUM"
+      },
+      "package": {
+        "ecosystem": "OSS-Fuzz",
+        "name": "htslib",
+        "purl": "pkg:generic/htslib"
+      },
+      "ranges": [
+        {
+          "events": [
+            {
+              "introduced": "dd6f0b72c92591252bb77818663629cc1a129949"
+            },
+            {
+              "fixed": "39acb9583128ede53d0562a8055786cec0e5ab40"
+            }
+          ],
+          "repo": "https://github.com/samtools/htslib.git",
+          "type": "GIT"
+        }
+      ],
+      "versions": [
+        "1.10",
+        "1.10.1",
+        "1.10.2"
+      ]
+    }
+  ],
+  "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=20473\n\n```\nCrash type: UNKNOWN READ\nCrash state:\nhpeek\nsam_hdr_create\nview_sam\n```\n",
+  "id": "OSV-2020-1222",
+  "modified": "2022-04-13T03:04:32.274127Z",
+  "published": "2020-07-22T21:49:57.988557Z",
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=20473"
+    }
+  ],
+  "schema_version": "1.6.0",
+  "summary": "UNKNOWN READ in hpeek"
+}
