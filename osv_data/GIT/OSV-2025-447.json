@@ -26,13 +26,14 @@
       ],
       "versions": [
         "v2025.3.rc1",
-        "vulkan-sdk-1.4.321.0"
+        "vulkan-sdk-1.4.321.0",
+        "v2025.4.rc1"
       ]
     }
   ],
   "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=423059200\n\n```\nCrash type: Use-of-uninitialized-value\nCrash state:\nspvtools::EmitNumericLiteral\nspvtools::disassemble::InstructionDisassembler::EmitOperand\nspvtools::disassemble::InstructionDisassembler::EmitInstructionImpl\n```\n",
   "id": "OSV-2025-447",
-  "modified": "2025-06-09T00:05:11.129056Z",
+  "modified": "2025-09-24T14:18:33.220549Z",
   "published": "2025-06-09T00:05:11.128452Z",
   "references": [
     {

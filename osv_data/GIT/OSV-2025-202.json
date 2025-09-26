@@ -3,7 +3,7 @@
     {
       "database_specific": {
         "introduced_range": "e32687a7f960a99672635758812b8e7e8e184933:c068311e4f218002e7d1cbf7419a051299cbeeb8",
-        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/https://gitlab.gnome.org/GNOME/librsvg.git/OSV-2025-202.yaml"
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/librsvg/OSV-2025-202.yaml"
       },
       "ecosystem_specific": {
         "severity": "MEDIUM"
@@ -38,13 +38,15 @@
         "2.59.91",
         "2.60.0",
         "2.60.0-beta.0",
-        "2.60.0-beta.1"
+        "2.60.0-beta.1",
+        "2.61.0",
+        "2.61.1"
       ]
     }
   ],
   "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=402836107\n\n```\nCrash type: UNKNOWN READ\nCrash state:\n_blit_xrgb32_lerp_spans\n_cairo_rectangular_scan_converter_generate\ncomposite_boxes\n```\n",
   "id": "OSV-2025-202",
-  "modified": "2025-03-15T00:01:51.127750Z",
+  "modified": "2025-09-25T14:31:36.972931Z",
   "published": "2025-03-15T00:01:51.127135Z",
   "references": [
     {

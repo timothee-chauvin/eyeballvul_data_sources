@@ -3,7 +3,7 @@
     {
       "database_specific": {
         "introduced_range": "cbe787d7031a6136680c3060aa28e606670146a9:fb1a52618624eea94b3604e7bc1f1f41c0cd548a",
-        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/https://github.com/google/libphonenumber/OSV-2025-298.yaml"
+        "source": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/libphonenumber/OSV-2025-298.yaml"
       },
       "ecosystem_specific": {
         "severity": "MEDIUM"
@@ -25,13 +25,14 @@
         }
       ],
       "versions": [
-        "v9.0.10"
+        "v9.0.10",
+        "v9.0.15"
       ]
     }
   ],
   "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=413161357\n\n```\nCrash type: Heap-buffer-overflow READ 1\nCrash state:\ni18n::phonenumbers::UnicodeText::const_iterator::operator--\ni18n::phonenumbers::UnicodeString::tempSubString\ni18n::phonenumbers::AsYouTypeFormatter::AttemptToExtractIdd\n```\n",
   "id": "OSV-2025-298",
-  "modified": "2025-04-26T00:02:46.772175Z",
+  "modified": "2025-09-25T14:35:28.890232Z",
   "published": "2025-04-26T00:02:46.771719Z",
   "references": [
     {
