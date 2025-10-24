@@ -2,104 +2,7 @@
   "affected": [
     {
       "database_specific": {
-        "source": "https://github.com/google/chromium-policy-vulnfeed/blob/main/advisories/V8-advisory.json",
-        "vanir_signatures": [
-          {
-            "deprecated": false,
-            "digest": {
-              "line_hashes": [
-                "6110445131746195388019667072209356489",
-                "209889350889444285065925678465553653678",
-                "126394846950324789575878575896723912254",
-                "190735503088039729049678985515346603706"
-              ],
-              "threshold": 0.9
-            },
-            "id": "V8-FRESHNESS-3afcf2bc",
-            "signature_type": "Line",
-            "signature_version": "v1",
-            "source": "https://github.com/v8/v8/commit/a865c79ff50df35375af90173dbf9657e5d5264f",
-            "target": {
-              "file": "src/wasm/module-compiler.cc"
-            }
-          },
-          {
-            "deprecated": false,
-            "digest": {
-              "function_hash": "142175201829865393012956586585392287567",
-              "length": 3049.0
-            },
-            "id": "V8-FRESHNESS-473f4879",
-            "signature_type": "Function",
-            "signature_version": "v1",
-            "source": "https://github.com/v8/v8/commit/a865c79ff50df35375af90173dbf9657e5d5264f",
-            "target": {
-              "file": "src/wasm/module-compiler.cc",
-              "function": "PublishDetectedFeatures"
-            }
-          },
-          {
-            "deprecated": false,
-            "digest": {
-              "line_hashes": [
-                "76776459517078127502832599476408836323",
-                "284264073342309946727085120095384462291",
-                "153780136633721411760440349750270395890",
-                "65255686566240656244651594002764859326",
-                "28780334092803862108516611045372572017",
-                "304880767745624609295646539929059406127",
-                "18278258721011655992216585407861582648",
-                "301796853545315445422520231433165414367"
-              ],
-              "threshold": 0.9
-            },
-            "id": "V8-FRESHNESS-708a36fd",
-            "signature_type": "Line",
-            "signature_version": "v1",
-            "source": "https://github.com/v8/v8/commit/a865c79ff50df35375af90173dbf9657e5d5264f",
-            "target": {
-              "file": "src/wasm/wasm-feature-flags.h"
-            }
-          },
-          {
-            "deprecated": false,
-            "digest": {
-              "line_hashes": [
-                "296334306384880890475983207529478591058",
-                "163057943281692560718699941427821077292",
-                "227696195416451011780647088411778847513",
-                "64365734985639654011490528739148063673"
-              ],
-              "threshold": 0.9
-            },
-            "id": "V8-FRESHNESS-c7132f3c",
-            "signature_type": "Line",
-            "signature_version": "v1",
-            "source": "https://github.com/v8/v8/commit/a865c79ff50df35375af90173dbf9657e5d5264f",
-            "target": {
-              "file": "include/v8-isolate.h"
-            }
-          },
-          {
-            "deprecated": false,
-            "digest": {
-              "line_hashes": [
-                "82192359359421673765212049264114955725",
-                "44465135872071334062625867680830444667",
-                "73299092997724617466428802125103429940",
-                "26966536181998534588570575022476393106"
-              ],
-              "threshold": 0.9
-            },
-            "id": "V8-FRESHNESS-f88b9088",
-            "signature_type": "Line",
-            "signature_version": "v1",
-            "source": "https://github.com/v8/v8/commit/a865c79ff50df35375af90173dbf9657e5d5264f",
-            "target": {
-              "file": "src/wasm/wasm-js.cc"
-            }
-          }
-        ]
+        "source": "https://github.com/google/chromium-policy-vulnfeed/blob/main/advisories/V8-advisory.json"
       },
       "ranges": [
         {
@@ -114,10 +17,10 @@
               "fixed": "ad8af0fc661d278e87627fcaa3a7cf795ee80dd8"
             },
             {
-              "fixed": "dc5d598dde109e5f03f4f26f8fca895782bbc893"
+              "fixed": "ecf47995fb85ea253328f79520ca3d11e23a1f86"
             },
             {
-              "fixed": "a865c79ff50df35375af90173dbf9657e5d5264f"
+              "fixed": "499e4104a3bf0ff777ccc1e4c28c9c5f543ffd0c"
             }
           ],
           "repo": "https://github.com/v8/v8",
@@ -18840,6 +18743,10 @@
         "14.2.231.3-pgo",
         "14.2.231.4",
         "14.2.231.4-pgo",
+        "14.2.231.5",
+        "14.2.231.5-pgo",
+        "14.2.231.6",
+        "14.2.231.6-pgo",
         "14.2.232",
         "14.2.232-pgo",
         "14.2.233",
@@ -19166,10 +19073,54 @@
         "14.3.73-pgo",
         "14.3.74",
         "14.3.74-pgo",
+        "14.3.75",
+        "14.3.75-pgo",
+        "14.3.76",
+        "14.3.76-pgo",
+        "14.3.77",
+        "14.3.77-pgo",
+        "14.3.78",
+        "14.3.78-pgo",
+        "14.3.79",
+        "14.3.79-pgo",
         "14.3.8",
         "14.3.8-pgo",
+        "14.3.80",
+        "14.3.80-pgo",
+        "14.3.81",
+        "14.3.81-pgo",
+        "14.3.82",
+        "14.3.82-pgo",
+        "14.3.83",
+        "14.3.83-pgo",
+        "14.3.84",
+        "14.3.84-pgo",
+        "14.3.85",
+        "14.3.85-pgo",
+        "14.3.86",
+        "14.3.86-pgo",
+        "14.3.87",
+        "14.3.87-pgo",
+        "14.3.88",
+        "14.3.88-pgo",
+        "14.3.89",
+        "14.3.89-pgo",
         "14.3.9",
         "14.3.9-pgo",
+        "14.3.90",
+        "14.3.90-pgo",
+        "14.3.91",
+        "14.3.91-pgo",
+        "14.3.92",
+        "14.3.92-pgo",
+        "14.3.93",
+        "14.3.93-pgo",
+        "14.3.94",
+        "14.3.94-pgo",
+        "14.3.95",
+        "14.3.95-pgo",
+        "14.3.96",
+        "14.3.96-pgo",
         "2.0.2.1",
         "2.0.2.2",
         "2.0.2.3",
@@ -39464,7 +39415,7 @@
   ],
   "details": "Outdated dependency on V8 found (see [policy](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/security/updates.md)).\n\nPlease update to the latest [beta](https://chromium.googlesource.com/v8/v8.git/+/refs/heads/beta), [stable](https://chromium.googlesource.com/v8/v8.git/+/refs/heads/stable), or [extended stable](https://chromium.googlesource.com/v8/v8.git/+/refs/heads/extended) versions.",
   "id": "V8-FRESHNESS",
-  "modified": "2025-10-18T07:32:18.991965Z",
+  "modified": "2025-10-24T09:32:05.533548Z",
   "published": "2024-11-22T15:36:05Z",
   "schema_version": "1.7.3",
   "summary": "Outdated dependency on V8 found (see details)"

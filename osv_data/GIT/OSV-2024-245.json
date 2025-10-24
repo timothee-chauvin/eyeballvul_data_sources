@@ -51,13 +51,14 @@
         "jackson-databind-3.0.0-rc7",
         "jackson-databind-3.0.0-rc8",
         "jackson-databind-3.0.0-rc9",
-        "jackson-databind-3.0.0"
+        "jackson-databind-3.0.0",
+        "jackson-databind-3.0.1"
       ]
     }
   ],
   "details": "OSS-Fuzz report: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=67672\n\n```\nCrash type: Security exception\nCrash state:\ncom.github.javaparser.ast.validator.TreeVisitorValidator.accept\ncom.github.javaparser.ast.expr.FieldAccessExpr.getMetaModel\ncom.github.javaparser.ast.expr.FieldAccessExpr.getMetaModel\n```\n",
   "id": "OSV-2024-245",
-  "modified": "2025-10-04T14:19:18.194581Z",
+  "modified": "2025-10-22T18:25:47.726846Z",
   "published": "2024-04-08T00:11:03.595756Z",
   "references": [
     {
